@@ -2,7 +2,7 @@ require "minitest/autorun"
 require "pry"
 
 def DNAtoRNA(dna)
-  dna.gsub(/T/,"U")
+  dna.gsub(/T/,"U") # dna.tr(/T/,"U")
 end
 
 class Mytest < Minitest::Test
