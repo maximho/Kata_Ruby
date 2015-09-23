@@ -79,8 +79,6 @@ def multi_inteligente(a,b)
 end
 
 
-
-
 class Mytest < Minitest::Test
 
 	def test_things
