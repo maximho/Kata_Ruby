@@ -13,14 +13,10 @@ def summation(num)
 	sum
 end
 
-
-
-
-
-sum = 0
-def summation(n)
-	(1..n).to_a.each {|k| sum = sum + k}
-end
+# def summation(n)
+# sum = 0
+# 	(1..n).to_a.each {|k| sum = sum + k}
+# end
 
 
 
